@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.hero{
+  background-image: url("/Tasks/images/leone-venter-VieM9BdZKFo-unsplash.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-left {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  margin-left: 100px;          
+}
+
+.hero-left img {
+  border-radius: 50%;
+  border: 4px solid;
+  height: 10vw;
+  width: 10vw;
+}
+
+.socials {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials img {
+  width: 100px;
+  height: 100px;
+}
+
+
+.scroll-animation {
+  background-color: burlywood;
+  height: 100vh;
+  width: 100%;
+}
+
+.projects {
+  background-color:indianred;
+  height: 100vh;
+  width: 100%;
+}
+
+.about {
+  background-color:orchid;
+  height: 100vh;
+  width: 100%;
+}
