@@ -93,6 +93,3 @@ function initSphere() {
 
     animate();
 }
-
-
-s
